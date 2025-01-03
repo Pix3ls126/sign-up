@@ -91,27 +91,35 @@ body {
     padding: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
 }
 
-.intro-text h1 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
+.intro-text {
+    width: 100%; /* Ensure the text block takes up the full width */
+    max-width: 500px; /* Optional: limit the width for readability */
+    margin-bottom: 20px; /* Add spacing below the text */
+    margin-top: 100px;
+    line-height: 1.4; /* Adjust line height for compactness */
+    font-size: 1.5rem; /* Adjust font size for compactness */
+    text-align: left; /* Align text to the left */
 }
 
 .intro-text p {
     margin-bottom: 15px;
     line-height: 1.5;
+    font-weight:700;
 }
 
 /* Form Styles */
 form {
-    max-width: 500px;
-    margin: 0 auto;
+    width: 100%; /* Make the form take the full width of its container */
+    max-width: 500px; /* Optional: limit the form's width */
+    margin: 0; /* Remove auto-centering */
 }
 
 h2 {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .form-group {
